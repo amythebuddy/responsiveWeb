@@ -1,0 +1,65 @@
+body, header, h1, nav, p{
+    padding: 0;
+    margin: 0;
+}
+/* Naviagation bar to another web*/
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 1rem 2.2rem;
+    text-decoration: none;
+    color: white;
+}
+/* Naviagation bar */
+
+.heading{
+    background-image: url(https://images.ctfassets.net/8ks1shyq5m87/rwQBjHpGulLsIrWQ8Dxrm/0691fffab8d0d704131d482d26add457/IMG_1293.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 18rem;
+    width: 100%;
+}
+h1{
+    background: rgba(0, 0, 0, 0.629);
+    font-size: 2rem;
+    color: yellow;
+    text-align: center;
+    padding: 115px 0;
+} 
+
+/* Statistics board*/
+.stat{
+    background-color: #2e4450;
+    height: 20rem;
+}
+.rectangle{
+    width: 80%;
+    display: flex;
+    height: 20%;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
+}
+.rectangle p {
+    font-size: 2rem;
+}
+.flexWrap{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+img{
+    width: 20%;
+}
+/* Statistics board*/
