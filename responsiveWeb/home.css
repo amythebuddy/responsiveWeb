@@ -1,0 +1,159 @@
+:root{
+    --bg-clr-500: #e64e55;
+    --bg-clr-300: #10217d;
+    --ff-title: 'Oswald', sans-serif;
+    --ff-num: 'Young Serif', serif;
+    --ff-content: 'Poppins', sans-serif;
+
+}
+body, header, h1, nav, p{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-family: var(--ff-title);
+}
+p, td{
+    font-family: var(--ff-content);
+}
+/* Naviagation bar to another web*/
+.navBar{
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 1rem 2.2rem;
+    text-decoration: none;
+    color: white;
+}
+/* Naviagation bar */
+
+.heading{
+    background-image: url(https://images.ctfassets.net/8ks1shyq5m87/rwQBjHpGulLsIrWQ8Dxrm/0691fffab8d0d704131d482d26add457/IMG_1293.jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 18rem;
+    width: 100%;
+}
+h1{
+    background: rgba(0, 0, 0, 0.629);
+    font-size: 2rem;
+    color: yellow;
+    text-align: center;
+    padding: 7.188rem 0;
+} 
+
+.title{ 
+    margin: 3.5rem 1rem;
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.25rem;
+}
+
+/* Statistics board*/
+.stat{
+    background-color: #e64e55;
+    height: 50rem;
+    padding: 2rem 0 1rem;
+    margin: 1rem 0 0 0;
+}
+.stat h2{
+    padding: 0 2rem;
+    margin: 1rem 0 2rem 0;
+    font-size: 2.5rem;
+}
+.stat h2 a{
+    color: white;
+}
+.flexWrap{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.rectangle{
+    background-color: var(--bg-clr-500);
+    width: 90%;
+    display: flex;
+    height: 3.5rem;
+    margin: 2.5rem auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexWrap .rectangle p {
+    font-size: 2rem;
+    padding: 0 1rem 0 0;
+    color: white;
+    margin: 0;
+    font-family: var(--ff-num);
+}
+.flexWrap p{
+    padding: 0 2rem;
+    margin: 0 auto 2rem ;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+hr{
+    width: 90%;
+    height: 0.2rem;
+    background-color: var(--bg-clr-300);
+    border: 0px;
+}
+.stat .rectangle img{
+    width: 3.8rem;
+    border-radius: 20px;
+    height: 3.3rem;
+    padding: 0.2rem;
+}
+/* Statistics board*/
+
+/*Organizations*/
+.organi{
+    background-image: linear-gradient(#596bce, green);
+    height: 34rem;
+    margin: -1rem 0 0 0;
+    padding: 1.8rem 2rem 1.5rem;
+}
+.organi h2{
+    color: orange;
+    font-size: 2rem;
+}
+td{
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0 1.5rem;
+    color: white;
+    font-size: 1.2rem;
+}
+td a{
+    color: yellow;
+    font-family: var();
+}
+/*Organizations*/
+
+/*media*/
+.media{
+    background-color: antiquewhite;
+
+}
+.media .socialMedia img {
+    width: 2rem;
+}
+.media img {
+    width: 20rem;
+    margin: 0 auto;
+}
+/*media*/
