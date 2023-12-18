@@ -1,0 +1,397 @@
+:root{
+    --bg-clr-500: #e64e55;
+    --bg-clr-300: #10217d;
+    --ff-title: 'Oswald', sans-serif;
+    --ff-num: 'Young Serif', serif;
+    --ff-content: 'Poppins', sans-serif;
+
+}
+body, header, h1, nav, p{
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    font-size: 2rem;
+}
+h2{
+    font-family: var(--ff-title);
+    font-size: 2.8rem;
+}
+p, td{
+    font-family: var(--ff-content);
+}
+/* Naviagation bar to another web*/
+.navBar{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    font-size: 1.5rem;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 1rem 3.4rem;
+    text-decoration: none;
+    color: gold;
+}
+li a:hover:not(.active){
+    color: rgb(229, 58, 52);
+    text-shadow: 0.4rem 0.4rem 6px #333;
+    font-weight: 700;
+}
+.active{
+    color: #04AA6D;
+    text-shadow: 0.2rem 0.3rem 4px black;
+}
+/* Naviagation bar */
+
+.heading{
+    background-image: url(https://images.ctfassets.net/8ks1shyq5m87/rwQBjHpGulLsIrWQ8Dxrm/0691fffab8d0d704131d482d26add457/IMG_1293.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+}
+h1{
+    background: rgba(0, 0, 0, 0.629);
+    font-family: 'Bangers';
+    font-size: 10rem;
+    color:rgb(0, 225, 255);
+    text-align: center;
+    padding: 9rem 0;
+    height: 10rem;
+}
+.title{
+
+    background-color: #eaeff2;
+    height: 10rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+p{
+    font-size: 1.25rem;
+}
+
+/* Statistics board*/
+.stat{
+    background-color: #e64e55;
+    height: 50rem;
+    padding: 2rem 0 1rem;
+    margin: 1rem 0 0 0;
+}
+.stat h2{
+    padding: 0 2rem;
+    margin: 1rem 0 2rem 0;
+    font-size: 2.5rem;
+}
+.stat h2 a{
+    color: white;
+}
+.flexWrap{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.rectangle{
+    background-color: var(--bg-clr-500);
+    width: 90%;
+    display: flex;
+    height: 3.5rem;
+    margin: 2.5rem auto;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+.flexWrap .rectangle p {
+    font-size: 2rem;
+    padding: 0 1rem 0 0;
+    color: white;
+    margin: 0;
+    font-family: var(--ff-num);
+}
+.flexWrap p{
+    padding: 0 2rem;
+    margin: 0 auto 2rem;
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+hr{
+    width: 90%;
+    height: 0.2rem;
+    background-color: var(--bg-clr-300);
+    border: 0px;
+}
+.stat .rectangle img{
+    width: 3.8rem;
+    border-radius: 20px;
+    height: 3.3rem;
+    padding: 0.2rem;
+}
+/* Statistics board*/
+
+/*Video*/
+
+.event h2{
+    padding: 0 2rem;
+}
+iframe{
+    display: block;
+    margin: 0 auto;
+    padding: 0 0 3rem 0;
+    width: 50rem;
+    height: 25rem;
+}
+/*Video*/
+
+/*Form in the Contact web*/
+.container{
+    margin: 2rem auto;
+    width: 90%;
+    height: 27rem;
+}
+.info{
+    padding: 0 0 0 2rem;
+}
+label{
+    font-family: var(--ff-num);
+    color:rgb(229, 58, 52);
+    font-size: 1.2rem;
+    margin: 2rem 0 0 1.5rem;
+}
+input{
+    border-radius: 10px;
+    margin: 1rem 0;
+    width: 90%;
+    box-shadow: 5px 4px grey;
+}
+#name, #email{
+    height: 1.5rem;
+}
+#question{
+    height: 5rem;
+}
+button{
+    margin: 1rem 0;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 7px;
+    background-color:deepskyblue;
+    color: white;
+    font-size: 1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+button:hover{
+    background-color: rgb(12, 131, 171);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+/*Form*/
+.small{
+    width:20rem;
+    height: 10rem;
+}
+/*Organizations*/
+.organi{
+    background-image: linear-gradient(#596bce, green);
+    background-size: cover;
+    margin: -1rem 0 0 0;
+    padding: 1.8rem 1rem 3rem;
+}
+.organi h2{
+    color: orange;
+    font-size: 2.5rem;
+}
+td{
+    border: 2px white solid;
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 0 1.5rem;
+    color: white;
+    font-size: 1rem;
+}
+td a{
+    color: yellow;
+    font-family: var(--ff-num);
+    font-size: 1.3rem;
+}
+td[valign ~= "top"]{
+    width: 30%;
+    text-align: center;
+}
+/*Organizations*/
+
+/*media*/
+footer{
+    background-color: antiquewhite;
+    padding: 3rem 0 0 0;
+
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin: -1rem 2.5rem 0 0;
+}
+.socialMedia li{
+    margin: 0 -3rem;
+}
+li a img{
+    width: 2.5rem;
+    object-fit: cover;
+}
+.break{
+    flex-basis: 100%;
+    height:0;
+}
+.logo img {
+    width: 25rem;
+    height: 10rem;
+    object-fit: cover;
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 2rem auto;
+    min-height: 10rem;
+}
+.bottom{
+    font-size: 1.5rem;
+    font-family: var(--ff-title);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.bottom img{
+    width: 12rem;
+    padding: 1rem 0;
+}
+/*media*/
+
+@media only screen and (max-width: 770px){
+    h1{
+        font-size: 6rem;
+        height: 12rem;
+    }
+    .stat{
+        height: 60rem;
+    }
+}
+
+@media only screen and (min-width: 770px){
+    .info, .container{
+        padding: 0 2rem 0 9.5rem;
+    }
+    .container{
+        width: 85%;
+    }
+    li{
+        font-size: 2rem;
+    }
+    .title{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .title p{
+        margin: 0 0 0 2rem;
+    }
+    .flexWrap{
+        width: 95%;
+        flex-direction: row;
+    }
+    .stat{
+        height: 26rem;
+        padding: 2rem 0 1rem;
+    }
+    .split{
+        justify-content: space-evenly;
+        width: 100%;
+        padding: 0.5rem 0;
+    }
+    hr{
+        width: 0.2rem;
+        margin: auto 0;
+        height: 12rem;
+    }
+    .flexWrap .rectangle p {
+        font-size: 1.5rem;
+    }
+    .stat .rectangle img{
+        width: 3.4rem;
+        height: 2.8rem;
+    }
+    .flexWrap p {
+        font-size: 1.1rem;
+    }
+    td{
+        font-size: 1.5rem;
+    }
+    td a{
+        font-size: 2rem;
+    }
+    .top{
+        float: left;
+    }
+    .logo img {
+        width: 26rem;
+        height: 9rem;
+    }
+    .logo-container{
+        width: 16rem;
+        padding: 0 0 0 5rem;
+    }
+    .bottom{
+        font-size: 2rem;
+        margin: -2rem 0;
+    }
+    .bottom img{
+        width: 15rem;
+    }
+    li a img{
+        width: 2rem;
+    }
+}
+@media only screen and (min-width: 1260px){
+   .heading{
+        height: 40rem;
+    }
+    h1{
+        height: 10rem;
+        padding: 15rem;
+    }
+    .flexWrap{
+        width: 85%;
+    }
+    .rectangle{
+        width: 75%;
+        height: 4rem;
+    }
+    .flexWrap .rectangle p{
+        font-size: 2rem; 
+    }
+    .stat .rectangle img{
+        width: 4rem;
+        height: 3.5em;
+    }
+}
